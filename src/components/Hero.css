@@ -1,0 +1,27 @@
+.hero {
+  background-image: url("/src/pages/temple-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-text {
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+}
